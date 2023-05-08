@@ -12,7 +12,7 @@
 </head>
 
 <?php 
-// exec('php bin\chat-server.php > /dev/null 2>&1 &');
+exec('php bin\chat-server.php > /dev/null 2>&1 &');
 date_default_timezone_set('Asia/Jakarta');
 
 session_start();
